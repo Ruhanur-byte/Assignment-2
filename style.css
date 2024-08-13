@@ -121,3 +121,41 @@ header{
     position: absolute;
     top: 8rem;
 }
+
+/* section2*/
+section{
+    background-color: black;
+
+}
+.habits{
+    
+    padding-top: 3.5rem;
+    margin-left: 11.8rem;
+    margin-right: 11.2rem;
+}
+.section2-heading{
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 3rem;
+    margin: auto;
+}
+.section2-p{
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.fitness{
+    display: flex;
+}
+.movement{
+    padding-top: 2rem;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.image-3{
+    height: 11.25rem;
+    width: 11.25rem;
+    border-radius: 100%;
+}
