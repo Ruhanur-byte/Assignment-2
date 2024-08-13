@@ -1,0 +1,123 @@
+header{
+    background:rgba(0, 0, 0, 0.774);
+}
+.header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #E6533C;
+    
+}
+ .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3.5rem;
+    margin-left: 11.8rem;
+    margin-right: 11.2rem;
+}
+.nav-links{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding-left: 0.3rem;
+    width: 18rem;
+    height: 2rem;
+    align-items: center;
+}
+.nav-item{
+    text-decoration: none;
+    list-style: none;
+    padding-right: 1.6rem;
+    color: #FFFFFF; 
+    font-size: 1rem;
+}
+.h-item{
+    background-color: #E6533C;
+    font-size: 1rem;
+    border-radius: 20px;
+    border: 1px solid #E6533C;
+    color: #FFFFFF; 
+    position: relative;
+}
+
+
+.btn{
+    background-color: #E6533C;
+    border-radius: 30px;
+    border: 2px solid #E6533C;
+    width: 224px;
+    height: 54px;
+    color: #FFFFFF;
+    font-weight: bold ;
+}
+.btn-2{
+    border-radius: 30px;
+    border: 1px solid white;
+    width: 224px;
+    height: 54px;
+    background-color:  rgba(0, 0, 0, 0.041);
+    color: #FFFFFF;
+    font-weight: bold ;
+}
+.banner{
+    display: flex;
+    margin-left: 11.8rem;
+    margin-right: 10rem;
+   
+}
+.banner-title{
+    color: #FFFFFF;
+    font-size: 4.9rem;
+    font-weight: bolder;
+}
+.banner-content p{
+    color: #FFFFFF;
+}
+.card{
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+}
+.fact-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid whitesmoke;
+    width: 12.9rem;
+    height: 6rem;
+    position: absolute;
+    bottom: 4.8rem;
+    
+}
+.icon-circle{
+    width: 2rem;
+    height: 2rem;
+    background-color: #E6533C;
+    border-radius: 50%;
+    margin-right: 1rem;
+    
+}
+.fact-text h1{
+    font-size: 1.5rem;
+    color: #FAFAF9;
+    margin: 0;
+}
+.fact-text p{
+    margin: 0;
+    font-size: 0.9rem;
+    color:#EFEDE8;
+    opacity: 0.8;
+}
+.card-2{
+    width: 12.2rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    padding-left: 0.5rem;
+    position: absolute;
+    top: 8rem;
+}
