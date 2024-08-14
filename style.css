@@ -11,9 +11,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 3.5rem;
-    margin-left: 11.8rem;
-    margin-right: 11.2rem;
+    padding-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .nav-links{
     display: flex;
@@ -84,11 +84,13 @@ header{
     align-items: center;
     border-radius: 15px;
     border: 1px solid whitesmoke;
-    width: 12.9rem;
-    height: 6rem;
+    width: 50%;
+    height: 15%;
     position: absolute;
-    bottom: 4.8rem;
-    
+    bottom: 16%;
+    left: -20%;
+    background-color: rgba(0, 0, 0, 0.192);
+
 }
 .icon-circle{
     width: 2rem;
@@ -99,19 +101,21 @@ header{
     
 }
 .fact-text h1{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #FAFAF9;
     margin: 0;
+    font-weight: bolder;
 }
 .fact-text p{
     margin: 0;
     font-size: 0.9rem;
     color:#EFEDE8;
     opacity: 0.8;
+    
 }
 .card-2{
-    width: 12.2rem;
-    height: 6rem;
+    width: 44%;
+    height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,7 +123,9 @@ header{
     border-radius: 15px;
     padding-left: 0.5rem;
     position: absolute;
-    top: 8rem;
+    top: 25%;
+    right: -10%;
+    background-color: rgba(0, 0, 0, 0.192);
 }
 
 /* section2*/
@@ -129,9 +135,9 @@ section{
 }
 .habits{
     
-    padding-top: 3.5rem;
-    margin-left: 11.8rem;
-    margin-right: 11.2rem;
+    padding-top: 3%;
+    margin-left: 12%;
+    margin-right: 12%;
 }
 .section2-heading{
     text-align: center;
@@ -155,7 +161,36 @@ section{
     color: #FFFFFF;
 }
 .image-3{
-    height: 11.25rem;
-    width: 11.25rem;
+    height: 70%;
+    width: 70%;
     border-radius: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.164);
+}
+.run{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 12%;
+    margin-left: 12%;
+    border-radius: 15px;
+    background-color:rgba(126, 123, 123, 0.24);
+    box-shadow: 0 4px 8px rgba(82, 80, 80, 0.192);
+    
+}
+.content{
+    
+    margin-left: 5%;
+}
+.content h2{
+    font-size:3rem;
+    color: #EFEDE8;
+}
+.content p{
+    color: #EFEDE8;
+}
+.run img{
+    width: 60%;
+   
+    border-radius: 10%;
+    margin-left: 35%;
 }
