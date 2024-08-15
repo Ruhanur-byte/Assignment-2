@@ -1,13 +1,25 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+.inter-uniquifier> {
+  font-family: "Inter", "sans-serif";
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:"sInt" 0;
+}
+body{
+    font-family: "Inter";
+}
 
 header{
     background-color: rgba(0, 0, 0, 0.76);
    
 }
 .header{
-    font-size: 36px;
-    font-weight: bolder;
+    font-size: 40px;
+    font-weight: 900;
     color: #E6533C;
     
 }
@@ -73,7 +85,7 @@ header{
 }
 .banner-title{
     color: #FFFFFF;
-    font-size: 4.9rem;
+    font-size: 4.8rem;
     font-weight: bolder;
 }
 .banner-content p{
@@ -93,7 +105,7 @@ header{
     width: 50%;
     height: 15%;
     position: absolute;
-    bottom: 16%;
+    bottom: 13%;
     left: -20%;
     background-color: rgba(0, 0, 0, 0.192);
 
@@ -190,7 +202,7 @@ section{
     margin-left: 12%;
     border-radius: 15px;
     background-color:rgba(126, 123, 123, 0.24);
-    box-shadow: 0 4px 8px rgba(82, 80, 80, 0.192);
+    box-shadow: 0 4px 8px rgba(126, 123, 123, 0.24);
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -254,8 +266,8 @@ section{
 .bmi-part{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(82, 74, 74, 0.26);
-    box-shadow: 0 4px 8px rgba(85, 83, 83, 0.26);
+    background-color: rgba(126, 123, 123, 0.24);
+    box-shadow: 0 4px 8px rgba(126, 123, 123, 0.24);
     padding-bottom: 2rem;
 }
 .bmi-chart{
@@ -298,7 +310,7 @@ section{
     margin-bottom: 10px;
     border-radius: 5px;
     border: none;
-    background-color: rgba(82, 74, 74, 0.26);
+    background-color: rgba(126, 123, 123, 0.24);
     color: #92908b;
     
 }
@@ -348,4 +360,61 @@ section{
 }
 .choice p{
     color:#92908b;
+}
+footer{
+   
+    background-color:rgba(126, 123, 123, 0.24);
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12%;
+    margin-right: 12%;
+    max-width: 100%;
+}
+.footer-left{
+    max-width: 33%;
+}
+.footer-left h2{
+    font-size: 3rem;
+    color: #E6533C;
+    margin-bottom: 20px;
+    
+}
+.footer-left p{
+    color: #92908b;
+}
+.footer-right{
+    display: flex;
+    gap:8rem;
+    
+}
+.footer-column h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #EFEDE8;
+}
+.footer-column ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-column ul li{
+    margin-bottom: 10px;
+}
+.footer-column ul li a{
+    color: #92908b;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.footer-bottom{
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid white;
+    padding: 20px 0;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.footer-bottom p{
+    font-size: 1.5rem;
 }
