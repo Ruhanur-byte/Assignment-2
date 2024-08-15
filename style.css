@@ -1,5 +1,9 @@
+
+
+
 header{
-    background:rgba(0, 0, 0, 0.774);
+    background-color: rgba(0, 0, 0, 0.76);
+   
 }
 .header{
     font-size: 36px;
@@ -49,6 +53,7 @@ header{
     height: 54px;
     color: #FFFFFF;
     font-weight: bold ;
+    font-size: larger;
 }
 .btn-2{
     border-radius: 30px;
@@ -58,6 +63,7 @@ header{
     background-color:  rgba(0, 0, 0, 0.041);
     color: #FFFFFF;
     font-weight: bold ;
+    font-size: larger;
 }
 .banner{
     display: flex;
@@ -71,7 +77,7 @@ header{
     font-weight: bolder;
 }
 .banner-content p{
-    color: #FFFFFF;
+    color: #92908b;
 }
 .card{
     display: flex;
@@ -109,7 +115,7 @@ header{
 .fact-text p{
     margin: 0;
     font-size: 0.9rem;
-    color:#EFEDE8;
+    color:#92908b;
     opacity: 0.8;
     
 }
@@ -131,10 +137,13 @@ header{
 /* section2*/
 section{
     background-color: black;
+}
+.main,.t-section{
+   background-color: black;
 
 }
 .habits{
-    
+    padding-bottom: 3%;
     padding-top: 3%;
     margin-left: 12%;
     margin-right: 12%;
@@ -149,22 +158,29 @@ section{
 .section2-p{
     text-align: center;
     justify-content: center;
-    color: #FFFFFF;
+    color: #92908b;
 }
-.fitness{
+.fitness{ 
     display: flex;
 }
 .movement{
     padding-top: 2rem;
     justify-content: center;
     text-align: center;
-    color: #FFFFFF;
+    color: #92908b;
+}
+.movement h2{
+    color: #EFEDE8;
 }
 .image-3{
     height: 70%;
     width: 70%;
     border-radius: 100%;
     border: 2px solid rgba(255, 255, 255, 0.164);
+}
+.section-run{
+    background-color: black;
+    
 }
 .run{
     display: flex;
@@ -175,7 +191,8 @@ section{
     border-radius: 15px;
     background-color:rgba(126, 123, 123, 0.24);
     box-shadow: 0 4px 8px rgba(82, 80, 80, 0.192);
-    
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .content{
     
@@ -186,11 +203,119 @@ section{
     color: #EFEDE8;
 }
 .content p{
-    color: #EFEDE8;
+    color: #92908b;
 }
 .run img{
     width: 60%;
-   
+    height: 40%;
     border-radius: 10%;
     margin-left: 35%;
+}
+/*training*/
+.training{
+    background-color: black;
+    margin-left: 12%;
+    margin-right: 12%;
+   
+}
+.t-content h2{
+   padding-top: 3rem;
+   color: #EFEDE8;
+   font-size: 3rem;
+}
+.t-content p{
+    color: #92908b;
+    padding-bottom: 2rem;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid-item img{
+    height:100%;
+    width:100%;
+    
+}
+   /*BMI calculator*/
+.bmi-calculator{
+    margin-top: 12%;
+    margin-right: 12%;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.bmi-calculator h2{
+    font-size: 3rem;
+    color: #FAFAF9;
+}
+.bmi-calculator p{
+    color: #FAFAF9;
+}
+.bmi-part{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(82, 74, 74, 0.26);
+    box-shadow: 0 4px 8px rgba(85, 83, 83, 0.26);
+    padding-bottom: 2rem;
+}
+.bmi-chart{
+    margin-left: 12%;
+    max-width: 60%;
+}
+.bmi-calculation{
+    margin-right: 12%;
+    max-width: 40%;
+    
+}
+.bmi-chart h2,.bmi-calculation h2{
+    font-size: 2rem;
+    margin-bottom: 5%;
+    color: #EFEDE8;
+}
+
+.bmi-chart table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.bmi-chart th{
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #92908b;
+    color: #EFEDE8;
+}
+.bmi-chart td{
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #92908b;
+    color: #92908b;
+}
+.bmi-calculation p{
+    color: #92908b;
+}
+.bmi-calculation input,.bmi-calculation select{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(82, 74, 74, 0.26);
+    color: #92908b;
+    
+}
+.gender{
+    width: 37%;
+}
+.activity{
+    width: 75%;
+}
+.team{
+    text-align: center;
+    justify-content: center;
+}
+.team h2{
+    font-size: 3rem;
+    color: #EFEDE8;
+}
+.team p{
+    color: #92908b;
 }
